@@ -8,10 +8,10 @@ It is advisable also to add object tagging storage object tagging to be able to 
 
 ## Features
 
-  • Automatic file transfer from GCS to S3
-  • Scheduled daily execution
-  • Special handling for 'impressions' files
-  • Error handling and logging
+- Automatic file transfer from GCS to S3
+- Scheduled daily execution
+-  Special handling for 'impressions' files
+- Error handling and logging
   
 ## Prerequisites
 
