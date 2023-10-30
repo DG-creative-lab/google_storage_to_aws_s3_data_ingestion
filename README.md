@@ -37,3 +37,4 @@ python -m unittest test
 ```
 Please make sure to update the test script with your actual bucket names and other configuration details.
 
+Learn more about [bot3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) and [google cloud](https://github.com/googleapis/google-cloud-python#google-cloud-python-client) apis
