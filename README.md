@@ -1,4 +1,4 @@
-# AWS Lambda Function for GCS to S3 File Transfer# google_storage_to_aws_s3_data_ingestion
+# AWS Lambda Function for GCS to S3 File Transfer 
 
 This repository contains a Python script for an AWS Lambda function that automatically transfers files from Google Cloud Storage (GCS) to Amazon S3.
 The code was written with a very specific need - ingestion of [DV360 data transfer files](https://developers.google.com/bid-manager/dtv2/overview) from Google storage to AWS S3 bucket.
