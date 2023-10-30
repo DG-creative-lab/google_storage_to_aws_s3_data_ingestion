@@ -15,18 +15,18 @@ It is advisable also to add object tagging storage object tagging to be able to 
   
 ## Prerequisites
 
-  • AWS account with access to Lambda, S3 and CloudWatch services
-  • Google Cloud account with access to GCS
-  • Python 3.8 or later
+  - AWS account with access to Lambda, S3 and CloudWatch services
+  - Google Cloud account with access to GCS
+  - Python 3.8 or later
 
 ## Setup and Deployment
 
-• __Create S3 Buckets__: create s3 buckets for development and production with the relevant objects for impressions, activity and match files
-• __Configure Google Cloud Storage__: ensure the GCS data transfer are set up and accessible
-• __AWS Lambda Function__: write AWS lambda function using boto3 and google-cloud-storage libraries
-• __Schedule Lambda Function__: schedule lambda function to run once a day using AWS Cloudwatch Events;
-• __IAM Roles__: ensure the Lambda function has the necessary IAM roles for accessing the S3 buckets;
-• __Environment Variables__: set the GOOGLE_APPLICATION_CREDENTIALS environment variable in the AWS Lambda function configuration to the path of your Google Cloud service account key file
+-  __Create S3 Buckets__: create s3 buckets for development and production with the relevant objects for impressions, activity and match files
+- __Configure Google Cloud Storage__: ensure the GCS data transfer are set up and accessible
+- __AWS Lambda Function__: write AWS lambda function using boto3 and google-cloud-storage libraries
+- __Schedule Lambda Function__: schedule lambda function to run once a day using AWS Cloudwatch Events;
+- __IAM Roles__: ensure the Lambda function has the necessary IAM roles for accessing the S3 buckets;
+- __Environment Variables__: set the GOOGLE_APPLICATION_CREDENTIALS environment variable in the AWS Lambda function configuration to the path of your Google Cloud service account key file
 
 Running the Tests
 
